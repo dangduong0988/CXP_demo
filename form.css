@@ -1,0 +1,36 @@
+body{
+    background-image: url('img/hand-drawn-flat-halloween-background_23-2149115936.jpg');
+    background-size: cover;
+}
+.khung{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 70%;
+}
+button{
+    margin-top: 10px;
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    background-color: orangered;
+    color: #ffffff;
+}
+form{
+    margin-top: 150px;
+    height: 100%;
+    width: 400px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}

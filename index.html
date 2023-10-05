@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma" />
+  <script src="https://kit.fontawesome.com/98638255fc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <title>Web bán trang phục Halloween</title>
+</head>
+
+<body>
+  <!-- Top menu -->
+
+  <div class="top-menu">
+    <div style="cursor: pointer">☰</div>
+    <div><a href="index.html">Phu Store</a></div>
+    <div><a href="dangnhap.html"><i class="fa-solid fa-user"></i></a></div>
+  </div>
+
+  <!-- Slides  -->
+  <div class="Carousel">
+    <img class="slides" src="img/mua-do-halloween-tren-pho-hang-ma.jpg" height="400px" width="80%">
+    <img class="slides" src="img/tong-hop-8-kieu-trang-diem-halloween-don-gian-va-kinh-di-nhat-202206031409168061.jpg"
+      width="80%" height="400px">
+    <img class="slides" src="img/trang-phuc-halloween.jpg" width="80%" height="400px">
+  </div>
+  <script>
+    w3.slideshow(".slides", 2000);
+  </script>
+  <!-- PAGE CONTENT -->
+  <div class="page-content">
+    <!-- Photo Gird -->
+    <div class="gird-photo" id="food">
+      <div class="sanpham">
+        <img src="img/Batman.jpg" alt="" />
+        <h3>Trang phục hóa trang Batman</h3>
+        <p>500,000 VND</p>
+      </div>
+
+      <div class="sanpham">
+        <img src="img/Bear.jpg" alt="No image" />
+        <h3>Trang phục Bear Costume</h3>
+        <p>
+          500,000 VND
+        </p>
+      </div>
+
+      <div class="sanpham">
+        <img src="img/Ghost face.jpg" alt="No image" />
+        <h3>Halloween ma quái Ghost Costume</h3>
+        <p>
+          500,000 VND
+        </p>
+      </div>
+
+      <div class="sanpham">
+        <img src="img/Jack The Ripper.jpg" alt="No image" />
+        <h3>Set hóa trang Killer Costume</h3>
+        <p>
+          500,000 VND
+        </p>
+      </div>
+
+      <div class="sanpham">
+        <img height="400px" src="img/witch.jpg" alt="No image" />
+        <h3>Witch Costume cho trẻ cosplay</h3>
+        <p>500,000 VND</p>
+      </div>
+      <div class="sanpham">
+        <img src="img/Grand Mother.jpg" alt="No image" />
+        <h3>Old woman costume cosplay</h3>
+        <p>
+          500,000 VND
+        </p>
+      </div>
+    </div>
+    <!-- Pagination -->
+    <div class="pagination">
+      <div class="bar">
+        <a href="#" class="bar-items">«</a>
+        <a href="#" class="bar-items highlight">1</a>
+        <a href="#" class="bar-items">2</a>
+        <a href="#" class="bar-items">3</a>
+        <a href="#" class="bar-items">4</a>
+        <a href="#" class="bar-items">»</a>
+      </div>
+      <hr />
+      <!-- Footer -->
+    </div>
+  </div>
+    <div class="footer" id="about">
+      <form action="">
+        <h3>Đăng kí thêm nhận thông tin</h3>
+        <p>Email:</p>
+        <input type="text" placeholder="Nhập email" required>
+        <p>Số điện thoại:</p>
+        <input type="number" placeholder="Nhập số điện thoại" required>
+        <p>Ghi chú:</p>
+        <textarea cols="30" rows="10" placeholder="Nhập ghi chú"></textarea><br>
+        <button class="btn">Đăng ký</button>
+      </form>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/9H8DcKcA_J4?si=_QrVyn_SG5_g3DaU"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
